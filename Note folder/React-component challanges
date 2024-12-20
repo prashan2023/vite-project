@@ -1,0 +1,40 @@
+Exercise 01:(Rendering Multiple Components and Nested Components);
+
+Step 1: Create a Header Component.
+
+1. Create a new file called as a Header.jsx
+2. Inside this file, create a functional component named as a Header
+3. The Header component should return a <header> element with the following 
+    - A <h1> element with the text "welcome to My website!"
+    - A <nav> element containing three links (<a>) with the text "Home","About", and "Contact"
+
+Step 2: Create a Footer Component.
+
+1. Create a new file called as a Footer.jsx
+2. Inside this file, create a functional component named as a Footer
+3. The Footer Component should return a <footer> element with a <p> containing the text " @ 2024 My website"
+
+Step 3: Create a MainContent Component.
+
+1. Create a new file called as a Maincontent.jsx
+2. Inside this file, create a functional component named as a MainContent
+3. The Maincontent component should return a <main> element containing 
+    - A <h2> element with the text "Main Content"
+    - A <p> element with any text of your choice.
+
+Step 4: Render Components inside App.jsx
+
+1. In your App.jsx file, import the Header, Maincontent, and Footer Components;
+
+    - import Header from "./Header" ;
+    - import Maincontent from "./Maincontent" ;
+    - import Footer from "./Footer" ;
+
+2. Inside the App Component's return statement, render the three Components inside a single  <div> in follwing order ;
+    - Header
+    - Maincontent
+    - Footer
+
+Summary part for multiple Components:
+
+     In this Exercise,  I learnt a how to create multiple Components and render one Component inside another.
